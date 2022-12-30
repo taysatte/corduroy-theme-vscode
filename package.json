@@ -1,0 +1,21 @@
+{
+  "name": "corduroy-dark",
+  "displayName": "Corduroy Dark",
+  "description": "Corduroy Dark Theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Corduroy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Corduroy Dark-color-theme.json"
+      }
+    ]
+  }
+}
