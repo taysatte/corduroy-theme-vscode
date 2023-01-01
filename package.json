@@ -14,7 +14,7 @@
       {
         "label": "Corduroy",
         "uiTheme": "vs-dark",
-        "path": "./themes/corduroy-color-theme.json"
+        "path": "./themes/corduroy.json"
       }
     ]
   }
