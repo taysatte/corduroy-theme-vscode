@@ -1,5 +1,9 @@
-## Corduroy Theme ☕️
 
+<center>/-----------------------------------------/ IMAGE BANNER HERE /-----------------------------------------/</center>
+<br><br>
 
+<center>/-----------------------------------------/ THEME SNIPPETS HERE /-----------------------------------------/</center>
 
-## Installation 💻
+<br><br>
+
+# Installation
