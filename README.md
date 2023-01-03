@@ -3,6 +3,4 @@
 
 ---
 
-<br>
-
 ![Imgur](https://i.imgur.com/aoBoSXp.jpeg)
