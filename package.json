@@ -4,17 +4,20 @@
   "description": "Like a pair of warm corduroy pants... for your eyes.",
   "version": "1.0.0",
   "publisher": "TaylorSattenfield",
+  "icon": "corduroy_logo_lowres.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/taysatte/corduroy-theme-vscode"
   },
+  "galleryBanner": {
+    "color": "#655052"
+  },
   "keywords": [
     "theme",
-    "dark theme",
-    "corduroy",
+    "dark",
     "warm",
     "cozy",
-    "taylor sattenfield"
+    "corduroy"
   ],
   "engines": {
     "vscode": "^1.74.0"
