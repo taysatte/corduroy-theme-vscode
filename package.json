@@ -2,7 +2,7 @@
   "name": "corduroy-theme-vscode",
   "displayName": "Corduroy Theme",
   "description": "Like a pair of warm corduroy pants... for your eyes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "TaylorSattenfield",
   "icon": "corduroy_logo_lowres.png",
   "repository": {
