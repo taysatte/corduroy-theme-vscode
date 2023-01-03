@@ -1,12 +1,8 @@
 
-![Imgur](https://i.imgur.com/Z38w9u2.jpeg)
-<br>
-
-![Imgur](https://i.imgur.com/aoBoSXp.jpeg)
+![Imgur](https://i.imgur.com/Z38w9u2.jpeg)<br>
 
 ---
 
-## Installation
-<ol>
-<li>
-</ol>
+<br>
+
+![Imgur](https://i.imgur.com/aoBoSXp.jpeg)

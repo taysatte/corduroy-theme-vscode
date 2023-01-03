@@ -1,8 +1,21 @@
 {
-  "name": "corduroy",
-  "displayName": "Corduroy",
-  "description": "Corduroy Theme!",
-  "version": "0.0.1",
+  "name": "corduroy-theme-vscode",
+  "displayName": "Corduroy Theme",
+  "description": "Like a pair of warm corduroy pants... for your eyes.",
+  "version": "1.0.0",
+  "publisher": "TaylorSattenfield",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taysatte/corduroy-theme-vscode"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "corduroy",
+    "warm",
+    "cozy",
+    "taylor sattenfield"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
