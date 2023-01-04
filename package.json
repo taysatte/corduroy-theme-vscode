@@ -10,7 +10,8 @@
     "url": "https://github.com/taysatte/corduroy-theme-vscode"
   },
   "galleryBanner": {
-    "color": "#28242D"
+    "color": "#28242D",
+    "theme": "dark"
   },
   "keywords": [
     "theme",
