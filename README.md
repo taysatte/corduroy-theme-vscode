@@ -30,7 +30,7 @@ Steps for customizing the `Corduroy Theme` within the `User Settings (JSON)` fil
 
 # Options ⌥
 
-## Borderless
+### Borderless
 
 The `Corduroy Theme` comes out-of-the-box with some of the editor <b>borders</b> enabled. For a more seamless look, you can hide them with the config below:
 
