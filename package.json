@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/taysatte/corduroy-theme-vscode"
   },
+  "bugs": {
+    "url": "https://github.com/alexandernanberg/horizon-theme-vscode/issues"
+  },
   "galleryBanner": {
     "color": "#28242D",
     "theme": "dark"
@@ -32,6 +35,11 @@
         "label": "Corduroy",
         "uiTheme": "vs-dark",
         "path": "./themes/corduroy.json"
+      },
+      {
+        "label": "Corduroy Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/corduroy-darker.json"
       }
     ]
   }
