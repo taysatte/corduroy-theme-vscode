@@ -8,8 +8,6 @@
     <img alt="screenshots" src="https://i.imgur.com/aoBoSXp.jpeg">
 </p>
 
-<br>
-
 # Installation 💻
 
 Steps for installing the `Corduroy Theme` in Visual Studio Code:
