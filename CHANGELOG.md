@@ -2,11 +2,11 @@
 
 All notable changes to the "Corduroy" extension will be documented in this file.
 
-## [1.0.6]
+## [1.0.6] - [1.0.7]
 
 - Added `Corduroy Darker` mode
 - Updated `package.json` & `README.md`
-- Adjusted syntax colors
+- Adjusted syntax colors / added italics
 
 ## [1.0.1] - [1.0.5]
 

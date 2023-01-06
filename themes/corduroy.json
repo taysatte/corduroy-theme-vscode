@@ -90,7 +90,7 @@
         "editorWidget.background": "#28242D",
         "editorWidget.border": "#34303A",
         "editorSuggestWidget.highlightForeground": "#9E6E83",
-        "editorSuggestWidget.focusHighlightForeground": "#429E9EC8",
+        "editorSuggestWidget.focusHighlightForeground": "#426767",
         "peekView.border": "#3C3245",
         "peekViewEditor.background": "#28242D",
         "peekViewEditor.matchHighlightBackground": "#34303A",
@@ -110,12 +110,12 @@
         "statusBar.noFolderBackground": "#28242D",
         "statusBarItem.hoverBackground": "#28242D",
         "statusBarItem.prominentBackground": "#28242D",
-        "statusBarItem.prominentHoverBackground": "#429E9EC8",
+        "statusBarItem.prominentHoverBackground": "#426767",
         "titleBar.activeBackground": "#28242D",
         "titleBar.inactiveBackground": "#28242D",
-        "extensionButton.prominentBackground": "#429E9EC8",
-        "extensionButton.prominentHoverBackground": "#429E9EC8",
-        "pickerGroup.foreground": "#429E9EC8",
+        "extensionButton.prominentBackground": "#426767",
+        "extensionButton.prominentHoverBackground": "#426767",
+        "pickerGroup.foreground": "#426767",
         "terminal.foreground": "#C1A79A",
         "terminal.ansiBlue": "#26BBD9",
         "terminal.ansiBrightBlue": "#3FC4DE",
@@ -190,7 +190,8 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#EC9C8CD5"
+                "foreground": "#EC9C8CD5",
+                "fontStyle": "italic"
             }
         },
         {
@@ -223,7 +224,7 @@
         {
             "scope": "entity.other.attribute-name.id",
             "settings": {
-                "foreground": "#429E9EC8"
+                "foreground": "#426767"
             }
         },
         {
@@ -244,7 +245,8 @@
         {
             "scope": "variable.language",
             "settings": {
-                "foreground": "#E95678E6"
+                "foreground": "#E95678E6",
+                "fontStyle": "italic"
             }
         },
         {
@@ -254,9 +256,12 @@
             }
         },
         {
-            "scope": "keyword",
+            "scope": [
+                "keyword",
+                "storage.modifier.java"
+            ],
             "settings": {
-                "foreground": "#429E9EC8"
+                "foreground": "#426767"
             }
         },
         {
@@ -372,7 +377,7 @@
         {
             "scope": "support.variable",
             "settings": {
-                "foreground": "#429E9EC8"
+                "foreground": "#426767"
             }
         },
         {

@@ -1,21 +1,14 @@
-.class {
-  color: red;
-  color: #008000;
-  color: hsl(240, 100%, 50%);
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#id {
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
+body {
+  margin: 0;
 }
 
-div {
-  display: flex;
-  margin: 1em;
-}
-
-.pseudo:after,
-.child:nth-child(1),
-.state:hover {
-  padding: calc();
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }

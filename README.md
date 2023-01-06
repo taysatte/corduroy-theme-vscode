@@ -2,8 +2,6 @@
     <img alt="banner" src="https://i.imgur.com/Z38w9u2.jpeg">
 </p>
 
-<br>
-
 <p align="center">
     <img alt="screenshots" src="https://i.imgur.com/aoBoSXp.jpeg">
 </p>
