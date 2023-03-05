@@ -2,6 +2,10 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [1.0.9]
+- Adjusted selection highlighting
+- Minor editor color adjustments
+
 ## [1.0.6] - [1.0.8]
 
 - Added `Corduroy Darker` mode
