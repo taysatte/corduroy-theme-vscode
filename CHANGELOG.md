@@ -2,9 +2,10 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
-## [1.0.9]
+## [1.0.9] - [1.0.10]
 - Adjusted selection highlighting
 - Minor editor color adjustments
+- Customizations fix
 
 ## [1.0.6] - [1.0.8]
 

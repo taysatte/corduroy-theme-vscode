@@ -43,8 +43,8 @@ The `Corduroy Theme` comes out-of-the-box with some of the editor <b>borders</b>
 
 ```
 "workbench.colorCustomizations": {
-        "sideBar.border": "#1E1C20",
-        "panel.border": "#1E1C20"
+        "sideBar.border": "#221F25",
+        "panel.border": "#221F25"
     }
 ```
 
