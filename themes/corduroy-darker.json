@@ -8,9 +8,12 @@
         "errorForeground": "#F43E5C",
         "textLink.activeForeground": "#B0415B",
         "textLink.foreground": "#A13C53",
-        "button.background": "#985155",
         "button.foreground": "#B59E93",
-        "button.hoverBackground": "#87484B",
+        "button.background": "#A13C53",
+        "button.hoverBackground": "#A13C54B5",
+        "button.secondaryForeground": "#B59E93",
+        "button.secondaryBackground": "#A13C53",
+        "button.secondaryHoverBackground": "#A13C54B5",
         "dropdown.background": "#221F25",
         "dropdown.listBackground": "#221F25",
         "input.background": "#221F25",
@@ -68,6 +71,9 @@
         "editor.lineHighlightBackground": "#34303A89",
         "editorIndentGuide.background": "#2E2A34",
         "editorIndentGuide.activeBackground": "#4B4651",
+        "editorSuggestWidget.focusHighlightForeground": "#A13C53",
+        "editorSuggestWidget.selectedIconForeground": "#A13C53",
+        "editorSuggestWidget.selectedForeground": "#B59E93",
         "editorSuggestWidget.highlightForeground": "#AE6C84",
         "editorSuggestWidget.background": "#221F25",
         "editorSuggestWidget.border": "#36323b",
@@ -165,7 +171,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#AB8E9E54",
+                "foreground": "#AB8E9E89",
                 "fontStyle": "italic"
             }
         },
@@ -264,6 +270,7 @@
         {
             "scope": [
                 "keyword",
+                "keyword.operator.logical.python",
                 "storage.modifier.java"
             ],
             "settings": {
