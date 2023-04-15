@@ -2,11 +2,12 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
-## [v1.0.13]
+## [v1.0.13] - [v1.0.14]
 - Adjusted primary/secondary button colors
 - Comments made more visible
 - Python logical keyword operators color changed
 - Suggest Widget focus foreground colors adjusted
+- Escape characters color changed
 
 ## [v1.0.9] - [v1.0.12]
 - Adjusted selection highlighting

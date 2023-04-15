@@ -16,6 +16,7 @@
         "button.secondaryHoverBackground": "#A9495FAD",
         "dropdown.background": "#28242D",
         "dropdown.listBackground": "#28242D",
+        "dropdown.foreground": "#C1A79A",
         "input.background": "#28242D",
         "inputOption.activeBorder": "#A04450",
         "inputValidation.errorBackground": "#A04450",
@@ -181,7 +182,7 @@
         {
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#A94960"
             }
         },
         {
