@@ -2,6 +2,15 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.0.15]
+- Removed function italics
+- Colors adjusted (`Corduroy` & `Corduroy Darker`):
+    - Scroll bar
+    - Python syntax
+    - Debugging panel
+    - Editor highlighting
+    - Suggest Widget highlighting
+
 ## [v1.0.13] - [v1.0.14]
 - Adjusted primary/secondary button colors
 - Comments made more visible
