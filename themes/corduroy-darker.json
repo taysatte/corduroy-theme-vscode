@@ -28,14 +28,15 @@
         "badge.foreground": "#B59E93",
         "badge.background": "#221F25",
         "progressBar.background": "#B65663",
-        "list.activeSelectionBackground": "#34303A89",
-        "list.activeSelectionForeground": "#E6CFC4",
         "list.dropBackground": "#221F25",
         "list.focusBackground": "#221F25",
         "list.focusForeground": "#B59E93",
         "list.highlightForeground": "#A13C53",
         "list.hoverBackground": "#34303A89",
         "list.hoverForeground": "#B59E93",
+        "list.activeSelectionBackground": "#34303A89",
+        "list.activeSelectionForeground": "#D1B6A9",
+        "list.activeSelectionIconForeground": "#D1B6A9",
         "list.inactiveSelectionBackground": "#34303A89",
         "list.inactiveSelectionForeground": "#B59E93",
         "list.inactiveFocusBackground": "#34303A89",
@@ -175,6 +176,7 @@
         "debugIcon.stepOutForeground": "#B59E93",
         "debugIcon.restartForeground": "#366565",
         "debugIcon.stopForeground": "#A13C53",
+        "debugIcon.pauseForeground": "#AE6C84",
         "debugTokenExpression.name": "#366565",
         "debugTokenExpression.string": "#B98184",
         "debugTokenExpression.boolean": "#AE6C84",
@@ -231,6 +233,12 @@
             }
         },
         {
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "foreground": "#366565"
+            }
+        },
+        {
             "scope": [
                 "entity.name.type",
                 "storage.type.cs"
@@ -252,7 +260,13 @@
             }
         },
         {
-            "scope": "entity.other.attribute-name.id",
+            "scope": [
+                "entity.other.attribute-name.id",
+                "entity.name.type.cpp",
+                "keyword.operator.logical.cpp",
+                "entity.name.function.operator.member.cpp",
+                "entity.name.function.operator.cpp"
+            ],
             "settings": {
                 "foreground": "#366565"
             }
@@ -266,8 +280,20 @@
                 "foreground": "#AE6C84"
             }
         },
+          {
+            "scope": [
+                "variable.css",
+                "variable.argument.css"
+            ],
+            "settings": {
+                "foreground": "#A13C53"
+            }
+        },
         {
-            "scope": "variable",
+            "scope": [
+                "variable",
+                "variable.other.local.cpp"
+            ],
             "settings": {
                 "foreground": "#B59E93"
             }
@@ -283,7 +309,14 @@
             "scope": [
                 "variable.parameter",
                 "variable.parameter.function.language.python",
-                "meta.function-call.arguments.python"
+                "meta.function-call.arguments.python",
+                "storage.type.namespace.directive.cpp",
+                "keyword.other.namespace.directive.cpp",
+                "variable.parameter.cpp",
+                "variable.other.definition.java",
+                "meta.function-call.java",
+                "variable.other.constant.js",
+                "variable.other.readwrite.js"
             ],
             "settings": {
                 "foreground": "#A13C53"
@@ -294,16 +327,24 @@
                 "keyword",
                 "keyword.operator.logical.python",
                 "keyword.control.flow.python",
-                "support.variable.magic.python"
+                "support.variable.magic.python",
+                "keyword.operator.logical.cpp"
             ],
             "settings": {
                 "foreground": "#366565"
             }
         },
         {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#AB9386A8"
+            }
+        },
+        {
             "scope": [
-                "keyword.operator",
-                "keyword.operator.bitwise.shift.cpp"
+                "keyword.operator.bitwise.shift.cpp",
+                "keyword.control.new.java",
+                "variable.other.object.property.java"
             ],
             "settings": {
                 "foreground": "#AE6C84"
@@ -457,7 +498,9 @@
                 "punctuation.definition.template-expression",
                 "punctuation.quasi.element",
                 "punctuation.section.embedded",
-                "punctuation.definition.list"
+                "punctuation.definition.list",
+                "punctuation.definition.parameters.begin.bracket.round.java",
+                "punctuation.definition.parameters.end.bracket.round.java"
             ],
             "settings": {
                 "foreground": "#B59E93"
