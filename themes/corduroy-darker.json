@@ -335,7 +335,10 @@
             }
         },
         {
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.assignment"
+            ],
             "settings": {
                 "foreground": "#AB9386A8"
             }

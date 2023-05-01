@@ -332,9 +332,12 @@
             }
         },
         {
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.assignment"
+            ],
             "settings":{
-                "foreground": "C1A79AA3"
+                "foreground": "#C1A79AA3"
             }
         },
         {
