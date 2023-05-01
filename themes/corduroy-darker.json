@@ -413,7 +413,10 @@
             }
         },
         {
-            "scope": "meta.item-access.arguments.python",
+            "scope": [
+                "meta.item-access.arguments.python",
+                "support.type.python"
+            ],
             "settings": {
                 "foreground": "#AE6C84"
             }
