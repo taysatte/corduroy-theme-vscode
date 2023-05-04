@@ -227,7 +227,10 @@
             }
         },
         {
-            "scope": "entity.name.tag",
+            "scope": [
+                "entity.name.tag",
+                "meta.method.body.java"
+            ],
             "settings": {
                 "foreground": "#A13C53"
             }
@@ -241,6 +244,7 @@
         {
             "scope": [
                 "entity.name.type",
+                "keyword.operator.sizeof.cpp",
                 "storage.type.cs"
             ],
             "settings": {
@@ -262,7 +266,6 @@
         {
             "scope": [
                 "entity.other.attribute-name.id",
-                "entity.name.type.cpp",
                 "keyword.operator.logical.cpp",
                 "entity.name.function.operator.member.cpp",
                 "entity.name.function.operator.cpp"
@@ -273,6 +276,7 @@
         },
         {
             "scope": [
+                "entity.name.type.cpp",
                 "entity.other.attribute-name.pseudo-element",
                 "entity.other.attribute-name.pseudo-class"
             ],
@@ -290,10 +294,7 @@
             }
         },
         {
-            "scope": [
-                "variable",
-                "variable.other.local.cpp"
-            ],
+            "scope": "variable",
             "settings": {
                 "foreground": "#B59E93"
             }
@@ -308,6 +309,8 @@
         {
             "scope": [
                 "variable.parameter",
+                "variable.other.local.cpp",
+                "variable.other.global.cpp",
                 "variable.parameter.function.language.python",
                 "meta.function-call.arguments.python",
                 "storage.type.namespace.directive.cpp",
@@ -316,7 +319,9 @@
                 "variable.other.definition.java",
                 "meta.function-call.java",
                 "variable.other.constant.js",
-                "variable.other.readwrite.js"
+                "variable.other.readwrite.js",
+                "variable.other.object.js",
+                "variable.other.property.js"
             ],
             "settings": {
                 "foreground": "#A13C53"
@@ -325,6 +330,7 @@
         {
             "scope": [
                 "keyword",
+                "keyword.control.new.java",
                 "keyword.operator.logical.python",
                 "keyword.control.flow.python",
                 "support.variable.magic.python",
@@ -346,7 +352,6 @@
         {
             "scope": [
                 "keyword.operator.bitwise.shift.cpp",
-                "keyword.control.new.java",
                 "variable.other.object.property.java"
             ],
             "settings": {
@@ -436,6 +441,17 @@
         },
         {
             "scope": [
+                "storage.type.generic.java",
+                "storage.type.object.array.java",
+                "storage.type.java",
+                "storage.modifier.import.java"
+            ],
+            "settings": {
+                "foreground": "#AE6C84"
+            }
+        },
+        {
+            "scope": [
                 "string.quoted",
                 "string.template"
             ],
@@ -506,7 +522,11 @@
                 "punctuation.section.embedded",
                 "punctuation.definition.list",
                 "punctuation.definition.parameters.begin.bracket.round.java",
-                "punctuation.definition.parameters.end.bracket.round.java"
+                "punctuation.definition.parameters.end.bracket.round.java",
+                "punctuation.terminator.java",
+                "punctuation.bracket.angle.java",
+                "punctuation.bracket.round.java",
+                "punctuation.section.block.end.bracket.curly.java"
             ],
             "settings": {
                 "foreground": "#B59E93"

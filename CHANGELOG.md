@@ -2,7 +2,7 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
-## [v1.0.16] - [v1.0.18]
+## [v1.0.16] - [v1.0.19]
 - Syntax Colors adjusted (`Corduroy` & `Corduroy Darker`)
     - Python
     - C/C++
