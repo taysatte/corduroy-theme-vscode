@@ -2,13 +2,15 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
-## [v1.0.16] - [v1.0.19]
+## [v1.0.16] - [v1.0.20]
 - Syntax Colors adjusted (`Corduroy` & `Corduroy Darker`)
     - Python
     - C/C++
     - Java
     - JavaScript
     - CSS
+- Workbench Colors adjusted (`Corduroy` & `Corduroy Darker`)
+    - Terminal ANSI
 
 ## [v1.0.15]
 - Removed function italics

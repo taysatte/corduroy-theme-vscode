@@ -23,7 +23,7 @@
         "inputValidation.errorBorder": "#28242D",
         "scrollbar.shadow": "#2C292FB0",
         "scrollbarSlider.activeBackground": "#C0AFD511",
-        "scrollbarSlider.background": "#BBA9D109",
+        "scrollbarSlider.background": "#BBA9D119",
         "scrollbarSlider.hoverBackground": "#C0AFD526",
         "badge.foreground": "#C1A79A",
         "badge.background": "#28242D",
@@ -44,7 +44,7 @@
         "list.warningForeground": "#27D797B3",
         "activityBar.background": "#28242D",
         "activityBar.foreground": "#C1A79A",
-        "activityBarBadge.background": "#BD8689",
+        "activityBarBadge.background": "#A94960",
         "activityBarBadge.foreground": "#28242D",
         "sideBar.background": "#28242D",
         "sideBar.foreground": "#C1A79A",
@@ -53,6 +53,7 @@
         "sideBarSectionHeader.foreground": "#C1A79A",
         "editorGroupHeader.tabsBackground": "#28242D",
         "tab.border": "#28242D",
+        "tab.activeBorder": "#A94960",
         "tab.inactiveBackground": "#28242D",
         "tab.activeForeground": "#D6BEB2",
         "tab.inactiveForeground": "#C1A79AC2",
@@ -114,8 +115,8 @@
         "panelTitle.activeBorder": "#28242D",
         "statusBar.background": "#28242D",
         "statusBar.foreground": "#C1A79AC1",
-        "statusBar.debuggingBackground": "#BD8689",
-        "statusBar.debuggingForeground": "#06060C",
+        "statusBar.debuggingBackground": "#A94960",
+        "statusBar.debuggingForeground": "#28242D",
         "statusBar.noFolderBackground": "#28242D",
         "statusBarItem.hoverBackground": "#FFFFFF16",
         "statusBarItem.focusBorder": "#FFFFFF16",
@@ -127,18 +128,22 @@
         "extensionButton.prominentHoverBackground": "#3B6D6D",
         "pickerGroup.foreground": "#3B6D6D",
         "terminal.foreground": "#C1A79A",
-        "terminal.ansiBlue": "#26BBD9",
-        "terminal.ansiBrightBlue": "#3FC4DE",
-        "terminal.ansiBrightCyan": "#6BE4E6",
-        "terminal.ansiBrightGreen": "#3FDAA4",
-        "terminal.ansiBrightMagenta": "#F075B5",
-        "terminal.ansiBrightRed": "#EC6A88",
-        "terminal.ansiBrightYellow": "#FBC3A7",
-        "terminal.ansiCyan": "#59E1E3",
-        "terminal.ansiGreen": "#29D398",
-        "terminal.ansiMagenta": "#EE64AC",
-        "terminal.ansiRed": "#E95678",
-        "terminal.ansiYellow": "#FAB795",
+        "terminal.ansiBrightBlack": "#2E3138",
+        "terminal.ansiBrightRed": "#C35445",
+        "terminal.ansiBrightGreen": "#6AC289",
+        "terminal.ansiBrightYellow": "#E5C078",
+        "terminal.ansiBrightBlue": "#7D8EA3",
+        "terminal.ansiBrightMagenta": "#B48DAC",
+        "terminal.ansiBrightCyan": "#4DA3B6",
+        "terminal.ansiBrightWhite": "#EBECF1",
+        "terminal.ansiBlack": "#2E3138",
+        "terminal.ansiRed": "#C35445",
+        "terminal.ansiGreen": "#6AC289",
+        "terminal.ansiYellow": "#E5C078",
+        "terminal.ansiBlue": "#7D8EA3",
+        "terminal.ansiMagenta": "#B48DAC",
+        "terminal.ansiCyan": "#4DA3B6",
+        "terminal.ansiWhite": "#EBECF1",
         "terminal.selectionBackground": "#352F3B",
         "terminalCursor.background": "#C1A79A",
         "terminalCursor.foreground": "#352F3B",
@@ -150,6 +155,7 @@
         "gitDecoration.untrackedResourceForeground": "#27D797",
         "gitDecoration.ignoredResourceForeground": "#D6D5D84D",
         "breadcrumbPicker.background": "#28242D",
+        "breadcrumb.foreground": "#C1A79A8A",
         "panelTitle.inactiveForeground": "#C1A79AC2",
         "panelTitle.activeForeground": "#D6BEB2",
         "panel.border": "#C1A79A27",
@@ -173,10 +179,10 @@
         "debugIcon.stepOutForeground": "#C1A79A",
         "debugIcon.restartForeground": "#317070",
         "debugIcon.stopForeground": "#A94960",
-        "debugIcon.pauseForeground": "#AF8393",
+        "debugIcon.pauseForeground": "#B16F87",
         "debugTokenExpression.name": "#3E7777",
         "debugTokenExpression.string": "#BD8689",
-        "debugTokenExpression.boolean": "#AF8393",
+        "debugTokenExpression.boolean": "#B16F87",
         "debugTokenExpression.value": "#C1A79A",
         "debugTokenExpression.number": "#A94960",
         "debugTokenExpression.error": "#923A4E"
@@ -193,11 +199,14 @@
         {
             "scope": "constant",
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#B16F87"
             }
         },
         {
-            "scope": "constant.character.escape",
+            "scope": [
+                "constant.character.escape",
+                "constant.other.caps.python"
+            ],
             "settings": {
                 "foreground": "#A94960"
             }
@@ -220,12 +229,13 @@
                 "meta.function-call.python"
             ],
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
             "scope": [
                 "entity.name.tag",
+                "entity.name.variable.parameter.cs",
                 "meta.method.body.java"
             ],
             "settings": {
@@ -233,7 +243,10 @@
             }
         },
         {
-            "scope": "entity.name.tag.css",
+            "scope": [
+                "entity.name.tag.css",
+                "entity.name.namespace.cpp"
+            ],
             "settings": {
                 "foreground": "#3B6D6D"
             }
@@ -245,19 +258,19 @@
                 "storage.type.cs"
             ],
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
@@ -278,7 +291,7 @@
                 "entity.other.attribute-name.pseudo-class"
             ],
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#B16F87"
             }
         },
         {
@@ -299,8 +312,7 @@
         {
             "scope": "variable.language",
             "settings": {
-                "foreground": "#A94960",
-                "fontStyle": "italic"
+                "foreground": "#A94960"
             }
         },
         {
@@ -339,24 +351,17 @@
         },
         {
             "scope": [
-                "keyword.operator",
-                "keyword.operator.assignment"
-            ],
-            "settings":{
-                "foreground": "#C1A79AA3"
-            }
-        },
-        {
-            "scope": [
                 "keyword.operator.bitwise.shift.cpp",
                 "variable.other.object.property.java"
             ],
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#B16F87"
             }
         },
         {
             "scope": [
+                "keyword.operator",
+                "keyword.operator.assignment",
                 "keyword.operator.new",
                 "keyword.operator.expression",
                 "keyword.operator.logical",
@@ -369,7 +374,7 @@
         {
             "scope": "keyword.other.unit",
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#B16F87"
             }
         },
         {
@@ -420,10 +425,18 @@
         {
             "scope": [
                 "meta.item-access.arguments.python",
+                "meta.function.decorator.python",
+                "entity.name.function.decorator.python",
                 "support.type.python"
             ],
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#BD8689"
+            }
+        },
+        {
+            "scope": "source.python",
+            "settings": {
+                "foreground": "#A94960"
             }
         },
         {
@@ -444,7 +457,7 @@
                 "storage.modifier.import.java"
             ],
             "settings": {
-                "foreground": "#AF8393"
+                "foreground": "#B16F87"
             }
         },
         {
@@ -471,13 +484,13 @@
         {
             "scope": "support",
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
             "scope": "support.function",
             "settings": {
-                "foreground": "#DA9E92"
+                "foreground": "#D89385"
             }
         },
         {
@@ -511,15 +524,26 @@
             "scope": [
                 "punctuation.definition.arguments.end.python", 
                 "punctuation.definition.arguments.begin.python",
+                "punctuation.definition.inheritance.begin.python",
+                "punctuation.definition.inheritance.end.python",
+                "punctuation.section.class.begin.python",
+                "punctuation.section.class.end.python",
                 "punctuation.parenthesis.begin.python",
                 "punctuation.parenthesis.end.python",
+                "punctuation.section.function.begin.python",
+                "punctuation.section.function.end.python",
+                "punctuation.definition.parameters.begin.python",
+                "punctuation.definition.parameters.end.python",
                 "punctuation.separator",
                 "punctuation.definition.template-expression",
                 "punctuation.quasi.element",
                 "punctuation.section.embedded",
                 "punctuation.definition.list",
+                "punctuation.section.block.begin.bracket.curly.java",
+                "punctuation.section.block.end.bracket.curly.java",
                 "punctuation.definition.parameters.begin.bracket.round.java",
                 "punctuation.definition.parameters.end.bracket.round.java",
+                "punctuation.bracket.square.java",
                 "punctuation.terminator.java",
                 "punctuation.bracket.angle.java",
                 "punctuation.bracket.round.java",
@@ -527,6 +551,12 @@
             ],
             "settings": {
                 "foreground": "#C1A79A"
+            }
+        },
+        {
+            "scope": "punctuation.definition.decorator.python",
+            "settings": {
+                "foreground": "#D89385"
             }
         },
         {
