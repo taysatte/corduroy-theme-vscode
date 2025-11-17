@@ -13,3 +13,5 @@
 # Local configuration
 .env
 .env.*
+
+ref/

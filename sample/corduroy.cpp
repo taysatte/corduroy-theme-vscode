@@ -9,7 +9,7 @@ int main() {
     file.open("myfile.txt");
 
     // Read file line by line.
-    while(getline(file, line)) {
+    while (getline(file, line)) {
         printf("%s", line.c_str());
     }
 }

@@ -8,6 +8,7 @@ public class java {
     static void printMessage() {
         System.out.println("Hello World!");
     }
+
     public static void main(String[] args) {
         // Print message to stdout.
         printMessage();

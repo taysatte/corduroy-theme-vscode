@@ -2,7 +2,7 @@
 
 > This is a quote
 
-[Here's a link]()
+[Here's a link](https://example.com)
 
 1. Step 1
 2. Step 2
@@ -13,8 +13,6 @@
 
 **bold**
 _italic_
-
-[footnote]: thing
 
 `code`
 
