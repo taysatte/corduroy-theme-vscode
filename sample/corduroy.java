@@ -1,6 +1,6 @@
 package sample;
 
-public class java {
+public class corduroy {
     int num = 1;
     boolean bool = true;
     String foo = "bar";
