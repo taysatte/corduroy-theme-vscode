@@ -10,7 +10,7 @@
     "email": "taylor.sattenfield@gmail.com",
     "url": "https://github.com/taysatte"
   },
-  "icon": "assets/corduroy-logo.png",
+  "icon": "assets/icon-bg.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/taysatte/corduroy-theme-vscode"
@@ -19,15 +19,22 @@
     "url": "https://github.com/alexandernanberg/horizon-theme-vscode/issues"
   },
   "galleryBanner": {
-    "color": "#28242D",
+    "color": "#1d1920",
     "theme": "dark"
   },
   "keywords": [
     "theme",
     "dark",
     "warm",
-    "cozy",
-    "corduroy"
+    "corduroy",
+    "vintage",
+    "retro",
+    "soft",
+    "textures",
+    "warmth",
+    "elegant",
+    "comfortable",
+    "cozy"
   ],
   "engines": {
     "vscode": "^1.74.0"
@@ -42,6 +49,9 @@
         "uiTheme": "vs-dark",
         "path": "./themes/corduroy.json"
       }
+    ],
+    "markdown.previewStyles": [
+      "./markdown-preview.css"
     ]
   }
 }

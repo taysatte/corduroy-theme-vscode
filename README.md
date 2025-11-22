@@ -1,61 +1,116 @@
-<p align="center">
-    <img alt="banner" src="https://i.imgur.com/Z38w9u2.jpeg">
-</p>
+<div align="center">
 
-<p align="center">
-    <img alt="screenshots" src="https://i.imgur.com/aoBoSXp.jpeg">
-</p>
+# 🧵 Corduroy Theme for VS Code
 
-# Installation 💻
+**Embrace vintage warmth, soft textures, and a touch of retro flair**
 
-Steps for installing the `Corduroy Theme` in Visual Studio Code:
+*A VS Code theme perfect for developers who prioritize both comfort and elegant aesthetics*
 
-1. <b>Search</b> `Corduroy` in VS Code <b>Extensions</b> sidebar.
-2. Click <b>Install</b>.
-3. <b>Open</b> the `Command Palette` with `CTRL+SHIFT+P` (PC) or `CMD+SHIFT+P` (MAC).
-4. Apply `Corduroy` theme and enjoy the <i>cozies!</i> ☕️
+[![Version](https://img.shields.io/badge/version-1.0.19-blue.svg)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-blue.svg)](https://code.visualstudio.com/)
 
-# Customize 🙇🏻
+<img alt="Corduroy Icon" width="120" src="./assets/icon-bg.png">
 
-Steps for customizing the `Corduroy Theme` within the `User Settings (JSON)` file:
+<br />
 
-1. <b>Open</b> the `Command Palette` with `CTRL+SHIFT+P` (PC) or `CMD+SHIFT+P` (MAC).
-2. Search `Open User Settings (JSON)`.
-3. After choosing an <b>option</b> from below; `copy` and `paste` the code into your `User Settings (JSON)` file.
-4. <b>Save</b> the `User Settings (JSON)` file and your personalized theme will <i>display!</i> 🎉
+[Install](#-installation) • [Features](#-features) • [Gallery](#-gallery) • [Contribute](#-contributing)
 
-# Options ⌥
+</div>
 
-### Borderless
+## ✨ Features
 
-The `Corduroy Theme` comes out-of-the-box with some of the editor <b>borders</b> enabled. For a more seamless look, you can hide them with the config below:
+- **🎨 Warm & Cozy Palette** - Carefully crafted colors that reduce eye strain during long coding sessions
+- **📝 Enhanced Syntax Highlighting** - Beautiful syntax colors with thoughtful contrast for readability
+- **🌙 Dark Theme Optimized** - Perfect for late-night coding sessions
+- **🎯 Consistent Design** - Harmonious color scheme across all VS Code UI elements
+- **⚡ Lightweight** - Minimal performance impact, maximum visual appeal
 
-### Corduroy
+---
 
-```
-"workbench.colorCustomizations": {
-        "sideBar.border": "#28242D",
-        "panel.border": "#28242D"
-    }
-```
+## 🚀 Installation
 
-### Corduroy Darker
+### Via VS Code Marketplace
 
-```
-"workbench.colorCustomizations": {
-        "sideBar.border": "#221F25",
-        "panel.border": "#221F25"
-    }
+1. Open **Extensions** sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+2. Search for **`Corduroy`**
+3. Click **Install**
+4. Open **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+5. Type `Preferences: Color Theme` and select **Corduroy**
+6. Enjoy the cozies! ☕️
+
+### Via Command Line
+
+```bash
+code --install-extension TaylorSattenfield.corduroy-theme-vscode
 ```
 
-# Contributing 👨‍👩‍👧‍👦
+---
 
-Please report any issues/bugs and/or suggestions for improvements to the `Corduroy Theme` <a href="https://github.com/taysatte/corduroy-theme-vscode/issues">gitHub</a>, thank you!
+## 🎨 Gallery
 
-# Release Notes / Change Log 📄
+> *Screenshots coming soon!*
 
-See the `Change Log` <a href="https://github.com/taysatte/corduroy-theme-vscode/blob/main/CHANGELOG.md">here</a>.
+<!-- Add screenshots here when available -->
+<!-- 
+![Preview](./assets/preview.png)
+-->
 
-# License 🪪
+---
 
-<a href="https://github.com/taysatte/corduroy-theme-vscode/blob/main/LICENSE.md">MIT</a> @ <a href="https://github.com/taysatte">Taylor Sattenfield</a>
+## 🛠️ Customization
+
+Corduroy Theme works great out of the box, but you can customize it further in your `settings.json`:
+
+```json
+{
+  "workbench.colorTheme": "Corduroy",
+  "editor.fontFamily": "Your preferred font",
+  "editor.fontSize": 14
+}
+```
+
+---
+
+## 📦 What's Included
+
+- Full VS Code theme support
+- Syntax highlighting for all major languages
+- Terminal color scheme
+- Workbench UI theming
+- Status bar styling
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions, bug reports, or want to contribute:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Inspired by vintage aesthetics and cozy design principles
+- Built with ❤️ for the developer community
+
+---
+
+<div align="center">
+
+**Made with ☕️ and 🧵 by [Taylor Sattenfield](https://github.com/taysatte)**
+
+[⭐ Star this repo](https://github.com/taysatte/corduroy-theme-vscode) • [🐛 Report Bug](https://github.com/taysatte/corduroy-theme-vscode/issues) • [💡 Request Feature](https://github.com/taysatte/corduroy-theme-vscode/issues)
+
+</div>

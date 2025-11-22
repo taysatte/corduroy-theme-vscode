@@ -1,0 +1,165 @@
+/* Corduroy Theme - Markdown Preview Styles */
+
+/* Code block background */
+pre {
+  background-color: #261e2a !important;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+/* Inline code */
+code {
+  background-color: #261e2a !important;
+  color: #edb392 !important;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Code inside pre blocks */
+pre code {
+  background-color: transparent !important;
+  color: #cdc8d0 !important;
+  padding: 0;
+}
+
+/* Syntax highlighting colors for code blocks */
+/* Comments */
+pre code .hljs-comment,
+pre code .hljs-quote {
+  color: #887b8c !important;
+  font-style: italic;
+}
+
+/* Keywords and control flow */
+pre code .hljs-keyword,
+pre code .hljs-selector-tag,
+pre code .hljs-addition,
+pre code .hljs-built_in,
+pre code .hljs-builtin-name {
+  color: #4b8686 !important;
+}
+
+/* Strings and literals */
+pre code .hljs-number,
+pre code .hljs-string,
+pre code .hljs-meta .hljs-meta-string,
+pre code .hljs-literal,
+pre code .hljs-doctag,
+pre code .hljs-regexp {
+  color: #edb392 !important;
+}
+
+/* Function names and titles */
+pre code .hljs-title,
+pre code .hljs-section,
+pre code .hljs-name,
+pre code .hljs-selector-id,
+pre code .hljs-selector-class,
+pre code .hljs-function,
+pre code .hljs-function .hljs-title {
+  color: #e99d90 !important;
+}
+
+/* Variables and attributes */
+pre code .hljs-attribute,
+pre code .hljs-attr,
+pre code .hljs-variable,
+pre code .hljs-template-variable,
+pre code .hljs-class .hljs-title,
+pre code .hljs-type {
+  color: #cdc8d0 !important;
+}
+
+/* Types, support, and metadata */
+pre code .hljs-symbol,
+pre code .hljs-bullet,
+pre code .hljs-subst,
+pre code .hljs-meta,
+pre code .hljs-meta .hljs-keyword,
+pre code .hljs-selector-attr,
+pre code .hljs-selector-pseudo,
+pre code .hljs-link,
+pre code .hljs-tag,
+pre code .hljs-tag .hljs-name,
+pre code .hljs-tag .hljs-attr {
+  color: #d27f91 !important;
+}
+
+/* Support functions and errors */
+pre code .hljs-built_in,
+pre code .hljs-deletion,
+pre code .hljs-operator {
+  color: #e06278 !important;
+}
+
+/* Constants */
+pre code .hljs-constant {
+  color: #e99d90 !important;
+}
+
+/* Punctuation (should be subtle) */
+pre code .hljs-punctuation {
+  color: #887b8c !important;
+}
+
+pre code .hljs-formula {
+  background-color: #2e2533 !important;
+}
+
+pre code .hljs-emphasis {
+  font-style: italic;
+}
+
+pre code .hljs-strong {
+  font-weight: bold;
+}
+
+/* Markdown preview general styling */
+body {
+  color: #cdc8d0 !important;
+  background-color: #1d1920 !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e99d90 !important;
+}
+
+/* Links */
+a {
+  color: #c285b2 !important;
+}
+
+a:hover {
+  color: #c285b2e6 !important;
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: #261e2a !important;
+  border-left-color: #6f6373 !important;
+}
+
+/* Horizontal rules */
+hr {
+  border-color: #887b8c !important;
+}
+
+/* Tables */
+table th {
+  background-color: #261e2a !important;
+  color: #cdc8d0 !important;
+}
+
+table td {
+  border-color: #6f6373 !important;
+}
+
+table tr:nth-child(even) {
+  background-color: #261e2a !important;
+}
