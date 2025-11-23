@@ -16,7 +16,7 @@
 
 <br />
 
-[Install](#-installation) • [Gallery](#-gallery) • [Customization](#-customization) • [Contribute](#-contributing)
+[Install](#-installation) • [Gallery](#-gallery) • [License](#-license) • [Contribute](#-contributing)
 
 </div>
 
@@ -47,30 +47,6 @@ code --install-extension TaylorSattenfield.corduroy-theme-vscode
 <!-- 
 ![Preview](./assets/preview.png)
 -->
-
----
-
-## 🛠️ Customization
-
-Corduroy Theme works great out of the box, but you can customize it further in your `settings.json`:
-
-```json
-{
-  "workbench.colorTheme": "Corduroy",
-  "editor.fontFamily": "Your preferred font",
-  "editor.fontSize": 14
-}
-```
-
----
-
-## 📦 What's Included
-
-- Full VS Code theme support
-- Syntax highlighting for all major languages
-- Terminal color scheme
-- Workbench UI theming
-- Status bar styling
 
 ---
 
