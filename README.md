@@ -6,29 +6,21 @@
 
 *A VS Code theme perfect for developers who prioritize both comfort and elegant aesthetics*
 
-[![Version](https://img.shields.io/badge/version-1.0.19-blue.svg)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
-[![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-blue.svg)](https://code.visualstudio.com/)
+[![Version](https://img.shields.io/badge/version-1.0.19-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+&nbsp;&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&labelColor=261e2a)](LICENSE.md)
+&nbsp;&nbsp;
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=2e2533)](https://code.visualstudio.com/)
 
 <img alt="Corduroy Icon" width="120" src="./assets/icon-bg.png">
 
 <br />
 
-[Install](#-installation) • [Features](#-features) • [Gallery](#-gallery) • [Contribute](#-contributing)
+[Install](#-installation) • [Gallery](#-gallery) • [Customization](#-customization) • [Contribute](#-contributing)
 
 </div>
 
-## ✨ Features
-
-- **🎨 Warm & Cozy Palette** - Carefully crafted colors that reduce eye strain during long coding sessions
-- **📝 Enhanced Syntax Highlighting** - Beautiful syntax colors with thoughtful contrast for readability
-- **🌙 Dark Theme Optimized** - Perfect for late-night coding sessions
-- **🎯 Consistent Design** - Harmonious color scheme across all VS Code UI elements
-- **⚡ Lightweight** - Minimal performance impact, maximum visual appeal
-
----
-
-## 🚀 Installation
+## 📦 Installation
 
 ### Via VS Code Marketplace
 
