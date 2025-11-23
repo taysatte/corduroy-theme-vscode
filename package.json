@@ -10,7 +10,7 @@
     "email": "taylor.sattenfield@gmail.com",
     "url": "https://github.com/taysatte"
   },
-  "icon": "assets/icon-bg.png",
+  "icon": "assets/icons/icon-bg.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/taysatte/corduroy-theme-vscode"

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Corduroy Icon" width="120" src="./assets/icon-bg.png">
+<img alt="Corduroy Icon" width="120" src="./assets/icons/icon-bg.png">
 
 <br />
 
@@ -20,7 +20,7 @@
 
 ## 📦 Installation
 
-### Via VS Code Marketplace
+### VS Code Marketplace
 
 1. Open **Extensions** sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 2. Search for **`Corduroy`**
@@ -29,22 +29,23 @@
 5. Type `Preferences: Color Theme` and select **Corduroy**
 6. Enjoy the cozies! ☕️
 
-### Via Command Line
+### Command Line
 
 ```bash
 code --install-extension TaylorSattenfield.corduroy-theme-vscode
 ```
 
----
-
 ## 🎨 Gallery
 
-> *Screenshots coming soon!*
+<center>
 
-<!-- Add screenshots here when available -->
-<!-- 
-![Preview](./assets/preview.png)
--->
+<img alt="TypeScript" width="800" src="./assets/screens/screen-01.png">
+
+<img alt="Python" width="800" src="./assets/screens/screen-02.png">
+
+<img alt="C++" width="800" src="./assets/screens/screen-03.png">
+
+</center>
 
 ---
 
@@ -57,19 +58,6 @@ Contributions are welcome! If you have suggestions, bug reports, or want to cont
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Inspired by vintage aesthetics and cozy design principles
-- Built with ❤️ for the developer community
 
 ---
 

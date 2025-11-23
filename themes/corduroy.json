@@ -766,8 +766,6 @@
         "variable.other.global.cpp",
         "variable.parameter.function.language.python",
         "meta.function-call.arguments.python",
-        "storage.type.namespace.directive.cpp",
-        "keyword.other.namespace.directive.cpp",
         "variable.parameter.cpp",
         "variable.other.definition.java",
         "meta.function-call.java",
@@ -778,6 +776,21 @@
       ],
       "settings": {
         "foreground": "#cdc8d0"
+      }
+    },
+    {
+      "scope": ["meta.preprocessor.cpp", "keyword.other.directive.cpp"],
+      "settings": {
+        "foreground": "#e06278"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.stream.cpp",
+        "punctuation.separator.scope-resolution.cpp"
+      ],
+      "settings": {
+        "foreground": "#e06278"
       }
     }
   ]
