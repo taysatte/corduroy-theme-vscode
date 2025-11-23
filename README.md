@@ -1,22 +1,20 @@
 <div align="center">
 
-# 🧵 Corduroy Theme for VS Code
+<img alt="Corduroy Icon" width="120" src="./assets/icon-bg.png">
+
+<br />
+
+# Corduroy for Visual Studio Code
 
 **Embrace vintage warmth, soft textures, and a touch of retro flair**
 
-*A VS Code theme perfect for developers who prioritize both comfort and elegant aesthetics*
+*A Visual Studio Code theme perfect for developers who prioritize both comfort and elegant aesthetics*
 
 [![Version](https://img.shields.io/badge/version-1.0.19-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
 &nbsp;&nbsp;
 [![Downloads](https://img.shields.io/visual-studio-marketplace/d/TaylorSattenfield.corduroy-theme-vscode?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a&color=443c4a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
 &nbsp;&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&labelColor=261e2a)](LICENSE.md)
-
-<img alt="Corduroy Icon" width="120" src="./assets/icon-bg.png">
-
-<br />
-
-[Install](#-installation) • [Gallery](#-gallery) • [License](#-license) • [Contribute](#-contributing)
 
 </div>
 
