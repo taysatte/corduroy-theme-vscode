@@ -37,27 +37,17 @@ code --install-extension TaylorSattenfield.corduroy-theme-vscode
 
 ## 🎨 Gallery
 
-<center>
+### TypeScript
 
-<img alt="TypeScript" width="800" src="./assets/screens/screen-01.png">
+![TypeScript](./assets/screens/screen-01.png)
 
-<img alt="Python" width="800" src="./assets/screens/screen-02.png">
+### Python
 
-<img alt="C++" width="800" src="./assets/screens/screen-03.png">
+![Python](./assets/screens/screen-02.png)
 
-</center>
+### C++
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions, bug reports, or want to contribute:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+![C++](./assets/screens/screen-03.png)
 
 ---
 
