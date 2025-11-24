@@ -1,6 +1,10 @@
 <div align="center">
 
-<img alt="Corduroy Icon" width="120" src="./assets/icons/icon-bg.png">
+<img alt="Corduroy Icon" width="100" src="./assets/icons/icon-bg.png">
+
+<br />
+
+<img alt="Corduroy Palette" width="200" src="./assets/icons/palette.png">
 
 <br />
 
