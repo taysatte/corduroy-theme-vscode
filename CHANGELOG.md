@@ -2,7 +2,7 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
-## [v1.1.0]
+## [v1.2.0]
 
 - Major update to the theme
   - New palette added
