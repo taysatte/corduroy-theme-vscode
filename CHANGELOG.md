@@ -2,6 +2,14 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.1.0]
+
+- Major update to the theme
+  - New palette added
+  - New screenshots added to the README
+  - New icons added
+  - New colors added to the theme
+
 ## [v1.0.16] - [v1.0.20]
 
 - Syntax Colors adjusted (`Corduroy` & `Corduroy Darker`)
