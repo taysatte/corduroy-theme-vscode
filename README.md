@@ -11,16 +11,11 @@
     <img alt="Corduroy Palette" width="435" src="./assets/icons/palette.png">
 </p>
 
-<div align="center" style="text-decoration: none !important;">
-    <a href="https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode">
-        <img src="https://img.shields.io/badge/version-1.2.2-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a" />
-    </a>
-    <a href="https://github.com/taysatte/corduroy-theme-vscode">
-        <img src="https://img.shields.io/github/last-commit/taysatte/corduroy-theme-vscode?style=for-the-badge&logo=github&labelColor=261e2a&color=443c4a" />
-    </a>
-    <a href="LICENSE.md">
-        <img src="https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a" />
-    </a>
+<div align="center">
+
+[![Version](https://img.shields.io/badge/version-1.2.2-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/taysatte/corduroy-theme-vscode?style=for-the-badge&logo=github&labelColor=261e2a&color=443c4a)](https://github.com/taysatte/corduroy-theme-vscode)
+[![License](https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](LICENSE.md)
 
 </div>
 
