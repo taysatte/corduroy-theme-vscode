@@ -13,15 +13,16 @@
 
 <div align="center">
 
-<a href="https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode">
+<a href="https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/version-1.2.2-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a" />
 </a>
-<a href="https://github.com/taysatte/corduroy-theme-vscode">
+<a href="https://github.com/taysatte/corduroy-theme-vscode" style="text-decoration: none;">
     <img src="https://img.shields.io/github/last-commit/taysatte/corduroy-theme-vscode?style=for-the-badge&logo=github&labelColor=261e2a&color=443c4a" />
 </a>
-<a href="LICENSE.md">
+<a href="LICENSE.md" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a" />
 </a>
+
 </div>
 
 ## 📦 Installation
