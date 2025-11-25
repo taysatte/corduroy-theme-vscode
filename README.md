@@ -1,8 +1,8 @@
 <div align="center">
 
-<img alt="Corduroy Icon" width="100" src="./assets/icons/icon-bg.png">
+<img alt="Corduroy Icon" width="80" src="./assets/icons/icon.png">
 
-<br />
+<div style="margin-bottom: 0.5em;"></div>
 
 # Corduroy for Visual Studio Code
 
@@ -11,11 +11,12 @@
 <img alt="Corduroy Palette" width="435" src="./assets/icons/palette.png">
 
 <br />
-<br />
 
-[![Version](https://img.shields.io/badge/version-1.0.19-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+[![Version](https://img.shields.io/badge/version-1.2.1-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
 &nbsp;&nbsp;
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/TaylorSattenfield.corduroy-theme-vscode?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a&color=443c4a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/TaylorSattenfield.corduroy-theme-vscode?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a&color=443c4a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+&nbsp;&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](LICENSE.md)
 
 </div>
 

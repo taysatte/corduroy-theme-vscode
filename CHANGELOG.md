@@ -2,6 +2,11 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.1] - [v1.2.2]
+
+- CSS variables adjusted
+- README updated
+
 ## [v1.2.0] - [v1.2.1]
 
 - Major update to the theme
