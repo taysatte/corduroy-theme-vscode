@@ -2,6 +2,12 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.3]
+
+- GitLens colors adjusted
+- GitLens gutter colors adjusted
+- GitLens gutter uncommitted colors adjusted
+
 ## [v1.2.1] - [v1.2.2]
 
 - CSS variables adjusted
