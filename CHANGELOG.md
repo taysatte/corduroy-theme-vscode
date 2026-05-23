@@ -2,6 +2,10 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.4] - [v1.2.5]
+
+- Cursor and word-highlight colors adjusted for clearer contrast on selection
+
 ## [v1.2.3] - [v1.2.4]
 
 - GitLens colors adjusted
