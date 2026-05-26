@@ -2,6 +2,11 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.5] - [v1.2.6]
+
+- Added `Corduroy Dark` theme variant with darker backgrounds and improved contrast
+- Added dark palette CSS variables
+
 ## [v1.2.4] - [v1.2.5]
 
 - Cursor and word-highlight colors adjusted for clearer contrast on selection

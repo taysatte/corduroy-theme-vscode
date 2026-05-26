@@ -1,0 +1,17 @@
+:root {
+  --base: #141016; /* Application frames, sidebars, tabs, and extensions to the focal context */
+  --surface: #1b151e; /* Cards, inputs, and status lines */
+  --overlay: #221a26; /* Popovers, notifications, and dialogs */
+  --muted: #7d7082; /* Ignored content, disabled elements and unfocused text */
+  --subtle: #9a8d9e; /* Comments, punctuation, and tab names */
+  --text: #ddd8df; /* Primary text color, normal text, variables, and active content */
+  --chenille: #e8758a; /* Diagnostic errors, deleted git files, terminal red/bright red */
+  --chamois: #f0bd9c; /* Warnings, terminal yellow/bright yellow */
+  --rayon: #f0a89b; /* Matching search background, modified git files, terminal cyan/bright cyan */
+  --argyle: #55a0a0; /* Git additions, renamed git files, terminal green/bright green */
+  --velour: #dc92a3; /* Diagnostic information, terminal blue/bright blue */
+  --paisley: #cf98c4; /* Diagnostic hints, inline links, merged and staged git modifications, terminal magenta/bright magenta */
+  --highlight-low: #18131b; /* Cursorline background, inactive selection background */
+  --highlight-med: #4f4656; /* Selection background paired with text foreground */
+  --highlight-high: #5a5160; /* Borders, visual dividers / cursor background paried with text foreground */
+}
