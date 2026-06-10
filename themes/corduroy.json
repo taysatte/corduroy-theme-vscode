@@ -541,7 +541,13 @@
       }
     },
     {
-      "scope": ["entity.name.function", "meta.function-call.python"],
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#cdc8d0"
+      }
+    },
+    {
+      "scope": "meta.function-call.python",
       "settings": {
         "foreground": "#e99d90"
       }

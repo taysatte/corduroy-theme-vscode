@@ -544,10 +544,13 @@
       }
     },
     {
-      "scope": [
-        "entity.name.function",
-        "meta.function-call.python"
-      ],
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#ddd8df"
+      }
+    },
+    {
+      "scope": "meta.function-call.python",
       "settings": {
         "foreground": "#f0a89b"
       }
