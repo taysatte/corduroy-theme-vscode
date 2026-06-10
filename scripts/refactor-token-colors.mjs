@@ -226,10 +226,7 @@ function buildTokenColors(c, { italic = false } = {}) {
       settings: colorSettings(c.punctuationString),
     },
     {
-      scope: [
-        "keyword.operator.stream.cpp",
-        "punctuation.separator.scope-resolution.cpp",
-      ],
+      scope: "keyword.operator.stream.cpp",
       settings: colorSettings(c.metaDirective),
     },
     {
