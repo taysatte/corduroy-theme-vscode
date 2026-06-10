@@ -36,12 +36,20 @@
     "comfortable",
     "cozy"
   ],
+  "packageManager": "pnpm@10.26.0",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
   "contributes": {
     "themes": [
       {
@@ -53,6 +61,16 @@
         "label": "Corduroy Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/corduroy-dark.json"
+      },
+      {
+        "label": "Corduroy Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/corduroy-italic.json"
+      },
+      {
+        "label": "Corduroy Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/corduroy-dark-italic.json"
       }
     ],
     "markdown.previewStyles": [

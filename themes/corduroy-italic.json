@@ -1,5 +1,5 @@
 {
-  "name": "Corduroy",
+  "name": "Corduroy Italic",
   "type": "dark",
   "colors": {
     "activityBar.activeBorder": "#cdc8d0",
@@ -513,7 +513,8 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#887b8c"
+        "foreground": "#887b8c",
+        "fontStyle": "italic"
       }
     },
     {
@@ -543,7 +544,8 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#e99d90"
+        "foreground": "#e99d90",
+        "fontStyle": "italic"
       }
     },
     {
@@ -576,7 +578,8 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#c285b2"
+        "foreground": "#c285b2",
+        "fontStyle": "italic"
       }
     },
     {
@@ -644,13 +647,15 @@
     {
       "scope": ["meta.import", "meta.export"],
       "settings": {
-        "foreground": "#4b8686"
+        "foreground": "#4b8686",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": "meta.function-call.python",
       "settings": {
-        "foreground": "#e99d90"
+        "foreground": "#e99d90",
+        "fontStyle": "italic"
       }
     },
     {
@@ -770,7 +775,8 @@
     {
       "scope": "support.function",
       "settings": {
-        "foreground": "#e06278"
+        "foreground": "#e06278",
+        "fontStyle": "italic"
       }
     },
     {
@@ -788,7 +794,8 @@
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#cdc8d0"
+        "foreground": "#cdc8d0",
+        "fontStyle": "italic"
       }
     },
     {
