@@ -2,6 +2,18 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.6] - [v1.2.7]
+
+- Added `Corduroy Italic` and `Corduroy Dark Italic` theme variants
+- Refactored syntax token structure across all themes for consistent scope grouping
+- Syntax highlighting fixes
+  - `entity.name` and `entity.name.function` now use consistent colors, with functions kept distinct
+  - C++ preprocessor macro names no longer pick up the function color under `#define`
+  - C++ scope resolution (`::`) now inherits the base `punctuation.separator` color
+- Added `scripts/refactor-token-colors.mjs` to regenerate `tokenColors` for all four themes from a single source
+- Added Prettier with `format` and `format:check` scripts
+- Switched package management from npm to pnpm
+
 ## [v1.2.5] - [v1.2.6]
 
 - Added `Corduroy Dark` theme variant with darker backgrounds and improved contrast
