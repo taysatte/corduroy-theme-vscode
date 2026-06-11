@@ -2,7 +2,7 @@
   "name": "corduroy-theme-vscode",
   "displayName": "Corduroy for VSCode",
   "description": "Embrace vintage warmth, soft textures, and a touch of retro flair.",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "publisher": "TaylorSattenfield",
   "license": "MIT",
   "author": {
@@ -63,12 +63,12 @@
         "path": "./themes/corduroy-dark.json"
       },
       {
-        "label": "Corduroy Italic",
+        "label": "Corduroy (italic)",
         "uiTheme": "vs-dark",
         "path": "./themes/corduroy-italic.json"
       },
       {
-        "label": "Corduroy Dark Italic",
+        "label": "Corduroy Dark (italic)",
         "uiTheme": "vs-dark",
         "path": "./themes/corduroy-dark-italic.json"
       }

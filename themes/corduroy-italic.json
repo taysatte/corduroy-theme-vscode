@@ -524,19 +524,13 @@
       }
     },
     {
-      "scope": [
-        "constant.numeric",
-        "constant.language"
-      ],
+      "scope": ["constant.numeric", "constant.language"],
       "settings": {
         "foreground": "#e06278"
       }
     },
     {
-      "scope": [
-        "constant.character.escape",
-        "constant.other.caps.python"
-      ],
+      "scope": ["constant.character.escape", "constant.other.caps.python"],
       "settings": {
         "foreground": "#e06278"
       }
@@ -550,8 +544,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#e99d90",
-        "fontStyle": "italic"
+        "foreground": "#e99d90"
       }
     },
     {
@@ -639,42 +632,38 @@
       }
     },
     {
-      "scope": "markup.italic",
+      "scope": ["markup.italic", "markup.italic.markdown"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "meta.tag",
-        "meta.brace"
-      ],
+      "scope": ["meta.tag", "meta.brace"],
       "settings": {
         "foreground": "#cdc8d0"
       }
     },
     {
-      "scope": [
-        "meta.import",
-        "meta.export"
-      ],
+      "scope": ["meta.import", "meta.export"],
       "settings": {
-        "foreground": "#4b8686",
-        "fontStyle": "italic"
+        "foreground": "#4b8686"
       }
     },
     {
       "scope": "meta.function-call.python",
       "settings": {
-        "foreground": "#e99d90",
+        "foreground": "#e99d90"
+      }
+    },
+    {
+      "scope": "meta.directive.vue",
+      "settings": {
+        "foreground": "#c285b2",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "meta.preprocessor.cpp",
-        "keyword.other.directive.cpp"
-      ],
+      "scope": ["meta.preprocessor.cpp", "keyword.other.directive.cpp"],
       "settings": {
         "foreground": "#e06278"
       }
@@ -834,10 +823,7 @@
       }
     },
     {
-      "scope": [
-        "variable.parameter",
-        "entity.name.variable.parameter.cs"
-      ],
+      "scope": ["variable.parameter", "entity.name.variable.parameter.cs"],
       "settings": {
         "foreground": "#c285b2"
       }

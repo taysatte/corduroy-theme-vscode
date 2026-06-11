@@ -523,19 +523,13 @@
       }
     },
     {
-      "scope": [
-        "constant.numeric",
-        "constant.language"
-      ],
+      "scope": ["constant.numeric", "constant.language"],
       "settings": {
         "foreground": "#e8758a"
       }
     },
     {
-      "scope": [
-        "constant.character.escape",
-        "constant.other.caps.python"
-      ],
+      "scope": ["constant.character.escape", "constant.other.caps.python"],
       "settings": {
         "foreground": "#e8758a"
       }
@@ -636,25 +630,19 @@
       }
     },
     {
-      "scope": "markup.italic",
+      "scope": ["markup.italic", "markup.italic.markdown"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "meta.tag",
-        "meta.brace"
-      ],
+      "scope": ["meta.tag", "meta.brace"],
       "settings": {
         "foreground": "#ddd8df"
       }
     },
     {
-      "scope": [
-        "meta.import",
-        "meta.export"
-      ],
+      "scope": ["meta.import", "meta.export"],
       "settings": {
         "foreground": "#55a0a0"
       }
@@ -666,10 +654,13 @@
       }
     },
     {
-      "scope": [
-        "meta.preprocessor.cpp",
-        "keyword.other.directive.cpp"
-      ],
+      "scope": "meta.directive.vue",
+      "settings": {
+        "foreground": "#cf98c4"
+      }
+    },
+    {
+      "scope": ["meta.preprocessor.cpp", "keyword.other.directive.cpp"],
       "settings": {
         "foreground": "#e8758a"
       }
@@ -827,10 +818,7 @@
       }
     },
     {
-      "scope": [
-        "variable.parameter",
-        "entity.name.variable.parameter.cs"
-      ],
+      "scope": ["variable.parameter", "entity.name.variable.parameter.cs"],
       "settings": {
         "foreground": "#cf98c4"
       }

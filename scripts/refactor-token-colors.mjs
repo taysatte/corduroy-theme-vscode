@@ -96,7 +96,7 @@ function buildTokenColors(c, { italic = false } = {}) {
     },
     {
       scope: "entity.name.function",
-      settings: colorSettings(c.metaCall, { italic }),
+      settings: colorSettings(c.metaCall),
     },
     {
       scope: [
@@ -162,7 +162,7 @@ function buildTokenColors(c, { italic = false } = {}) {
       settings: { fontStyle: "bold" },
     },
     {
-      scope: "markup.italic",
+      scope: ["markup.italic", "markup.italic.markdown"],
       settings: { fontStyle: "italic" },
     },
     {
@@ -171,11 +171,15 @@ function buildTokenColors(c, { italic = false } = {}) {
     },
     {
       scope: ["meta.import", "meta.export"],
-      settings: colorSettings(c.keyword, { italic }),
+      settings: colorSettings(c.keyword),
     },
     {
       scope: "meta.function-call.python",
-      settings: colorSettings(c.metaCall, { italic }),
+      settings: colorSettings(c.metaCall),
+    },
+    {
+      scope: "meta.directive.vue",
+      settings: colorSettings(c.attributeName, { italic }),
     },
     {
       scope: ["meta.preprocessor.cpp", "keyword.other.directive.cpp"],

@@ -2,6 +2,10 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.7] - [v1.2.8]
+
+- Refined which syntax tokens are italicized in `Corduroy Italic` and `Corduroy Dark Italic`
+
 ## [v1.2.6] - [v1.2.7]
 
 - Added `Corduroy Italic` and `Corduroy Dark Italic` theme variants
