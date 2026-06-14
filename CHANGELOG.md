@@ -2,6 +2,14 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.8] - [v1.2.9]
+
+- Refined syntax highlighting across all four theme variants for clearer token distinction
+- Restored constants and numeric literals to the original rayon color
+- Differentiated entity names, structural types, and storage keywords so they no longer share the same color
+- Property access (`.length`, `.target`, `.value`) now uses argyle for better readability in TypeScript and React
+- Support builtins (`document`, etc.) aligned with keyword coloring
+
 ## [v1.2.7] - [v1.2.8]
 
 - Refined which syntax tokens are italicized in `Corduroy Italic` and `Corduroy Dark Italic`
