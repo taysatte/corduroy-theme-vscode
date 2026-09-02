@@ -7,7 +7,7 @@
   --text: #cdc8d0; /* Primary text color, normal text, variables, and active content */
   --chenille: #e06278; /* Diagnostic errors, deleted git files, terminal red/bright red */
   --chamois: #edb392; /* Warnings, terminal yellow/bright yellow */
-  --rayon: #e99d90; /* Matching search background, modified git files, terminal cyan/bright cyan */
+  --rayon: #e99d90; /* Primary UI accents, matching search background, modified git files, terminal cyan/bright cyan */
   --argyle: #4b8686; /* Git additions, renamed git files, terminal green/bright green */
   --velour: #d27f91; /* Diagnostic information, terminal blue/bright blue */
   --paisley: #c285b2; /* Diagnostic hints, inline links, merged and staged git modifications, terminal magenta/bright magenta */

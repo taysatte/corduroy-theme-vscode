@@ -2,6 +2,16 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.2.9] - [v1.3.0]
+
+- Shifted primary UI accents from chenille to rayon for buttons, badges, progress bars, and links
+- Reworked syntax token roles for more deliberate, Rosé Pine–like consistency across languages
+  - Argyle reserved for keywords, storage types, and preprocessor directives
+  - Velour used for types, classes, and built-in support
+  - Rayon used for function names, method calls, and numeric/boolean literals
+  - Text used for variables, members, operators, and punctuation
+- Added `scripts/refactor-workbench-colors.mjs` to regenerate UI accent colors across all themes
+
 ## [v1.2.8] - [v1.2.9]
 
 - Refined syntax highlighting across all four theme variants for clearer token distinction
