@@ -1,4 +1,6 @@
-/* Corduroy Theme - Markdown Preview Styles */
+/* Corduroy Theme - Markdown Preview Styles
+ * Aligned with palette/corduroy-palettes.mjs token roles
+ */
 
 /* Code block background */
 pre {
@@ -7,7 +9,7 @@ pre {
   padding: 1em;
 }
 
-/* Inline code */
+/* Inline code — chamois (strings) */
 code {
   background-color: #261e2a !important;
   color: #edb392 !important;
@@ -15,41 +17,49 @@ code {
   border-radius: 3px;
 }
 
-/* Code inside pre blocks */
+/* Code inside pre blocks — text */
 pre code {
   background-color: transparent !important;
   color: #cdc8d0 !important;
   padding: 0;
 }
 
-/* Syntax highlighting colors for code blocks */
-/* Comments */
+/* Comments — subtle */
 pre code .hljs-comment,
 pre code .hljs-quote {
   color: #887b8c !important;
   font-style: italic;
 }
 
-/* Keywords and control flow */
+/* Keywords — argyle */
 pre code .hljs-keyword,
 pre code .hljs-selector-tag,
-pre code .hljs-addition,
-pre code .hljs-built_in,
-pre code .hljs-builtin-name {
+pre code .hljs-addition {
   color: #4b8686 !important;
 }
 
-/* Strings and literals */
-pre code .hljs-number,
+/* Built-ins / support — velour */
+pre code .hljs-built_in,
+pre code .hljs-builtin-name {
+  color: #d27f91 !important;
+}
+
+/* Strings — chamois */
 pre code .hljs-string,
 pre code .hljs-meta .hljs-meta-string,
-pre code .hljs-literal,
 pre code .hljs-doctag,
 pre code .hljs-regexp {
   color: #edb392 !important;
 }
 
-/* Function names and titles */
+/* Numbers / literals — rayon */
+pre code .hljs-number,
+pre code .hljs-literal,
+pre code .hljs-constant {
+  color: #e99d90 !important;
+}
+
+/* Function names — rayon */
 pre code .hljs-title,
 pre code .hljs-section,
 pre code .hljs-name,
@@ -60,17 +70,21 @@ pre code .hljs-function .hljs-title {
   color: #e99d90 !important;
 }
 
-/* Variables and attributes */
+/* Variables / parameters — text / paisley */
 pre code .hljs-attribute,
 pre code .hljs-attr,
 pre code .hljs-variable,
-pre code .hljs-template-variable,
-pre code .hljs-class .hljs-title,
-pre code .hljs-type {
+pre code .hljs-template-variable {
   color: #cdc8d0 !important;
 }
 
-/* Types, support, and metadata */
+/* Types / classes — velour */
+pre code .hljs-class .hljs-title,
+pre code .hljs-type {
+  color: #d27f91 !important;
+}
+
+/* Structural / tags / meta — velour */
 pre code .hljs-symbol,
 pre code .hljs-bullet,
 pre code .hljs-subst,
@@ -85,19 +99,13 @@ pre code .hljs-tag .hljs-attr {
   color: #d27f91 !important;
 }
 
-/* Support functions and errors */
-pre code .hljs-built_in,
-pre code .hljs-deletion,
-pre code .hljs-operator {
+/* Deletions — chenille (errors only) */
+pre code .hljs-deletion {
   color: #e06278 !important;
 }
 
-/* Constants */
-pre code .hljs-constant {
-  color: #e99d90 !important;
-}
-
-/* Punctuation (should be subtle) */
+/* Operators / punctuation — subtle */
+pre code .hljs-operator,
 pre code .hljs-punctuation {
   color: #887b8c !important;
 }
@@ -120,7 +128,7 @@ body {
   background-color: #1d1920 !important;
 }
 
-/* Headings */
+/* Headings — rayon */
 h1,
 h2,
 h3,
@@ -130,7 +138,7 @@ h6 {
   color: #e99d90 !important;
 }
 
-/* Links */
+/* Links — paisley */
 a {
   color: #c285b2 !important;
 }

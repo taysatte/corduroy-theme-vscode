@@ -1,6 +1,6 @@
 <p align="center">
     <img alt="Corduroy Icon" width="80" src="./assets/icons/icon.png">
-    <h1 align="center">Corduroy for VSCode</h1>
+    <h1 align="center">Corduroy Theme</h1>
 </p>
 
 <p align="center">
@@ -13,30 +13,40 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-1.3.0-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode)
+[![Version](https://img.shields.io/badge/version-1.4.0-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](https://marketplace.visualstudio.com/items?itemName=taysatte.corduroy-theme)
+[![Open VSX](https://img.shields.io/badge/Open%20VSX-Corduroy%20Theme-443c4a?style=for-the-badge&labelColor=261e2a)](https://open-vsx.org/extension/taysatte/corduroy-theme)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/taysatte/corduroy-theme-vscode?style=for-the-badge&logo=github&labelColor=261e2a&color=443c4a)](https://github.com/taysatte/corduroy-theme-vscode)
 [![License](https://img.shields.io/badge/license-MIT-443c4a?style=for-the-badge&logo=visual-studio-code&labelColor=261e2a)](LICENSE.md)
 
 </div>
 
-## 📦 Installation
+## Installation
 
 ### VS Code Marketplace
 
 1. Open **Extensions** sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-2. Search for **`Corduroy`**
+2. Search for **`Corduroy Theme`**
 3. Click **Install**
 4. Open **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 5. Type `Preferences: Color Theme` and select **Corduroy**
-6. Enjoy the cozies! ☕️
+6. Enjoy the cozies!
+
+### Open VSX (VSCodium and other forks)
+
+1. Open **Extensions** and search for **`Corduroy Theme`**, or install from [Open VSX](https://open-vsx.org/extension/taysatte/corduroy-theme)
+2. Select **Corduroy** (or Dark / Italic variants) from the color theme picker
 
 ### Command Line
 
 ```bash
-code --install-extension TaylorSattenfield.corduroy-theme-vscode
+# VS Code / Cursor
+code --install-extension taysatte.corduroy-theme
+
+# Open VSX / VSCodium
+ovsx get taysatte.corduroy-theme
 ```
 
-## 🎨 Gallery
+## Gallery
 
 ### TypeScript
 
@@ -54,8 +64,8 @@ code --install-extension TaylorSattenfield.corduroy-theme-vscode
 
 <div align="center">
 
-**Made with ☕️ and 🧵 by [Taylor Sattenfield](https://github.com/taysatte)**
+**Made with care by [Taylor Sattenfield](https://github.com/taysatte)**
 
-[⭐ Star this repo](https://github.com/taysatte/corduroy-theme-vscode) • [🐛 Report Bug](https://github.com/taysatte/corduroy-theme-vscode/issues) • [💡 Request Feature](https://github.com/taysatte/corduroy-theme-vscode/issues)
+[Star this repo](https://github.com/taysatte/corduroy-theme-vscode) · [Report Bug](https://github.com/taysatte/corduroy-theme-vscode/issues) · [Request Feature](https://github.com/taysatte/corduroy-theme-vscode/issues)
 
 </div>

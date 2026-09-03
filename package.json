@@ -1,9 +1,9 @@
 {
-  "name": "corduroy-theme-vscode",
-  "displayName": "Corduroy for VSCode",
+  "name": "corduroy-theme",
+  "displayName": "Corduroy Theme",
   "description": "Embrace vintage warmth, soft textures, and a touch of retro flair.",
-  "version": "1.3.0",
-  "publisher": "TaylorSattenfield",
+  "version": "1.4.0",
+  "publisher": "taysatte",
   "license": "MIT",
   "author": {
     "name": "Taylor Sattenfield",
@@ -11,12 +11,13 @@
     "url": "https://github.com/taysatte"
   },
   "icon": "assets/icons/icon-bg.png",
+  "homepage": "https://github.com/taysatte/corduroy-theme-vscode",
   "repository": {
     "type": "git",
     "url": "https://github.com/taysatte/corduroy-theme-vscode"
   },
   "bugs": {
-    "url": "https://github.com/alexandernanberg/horizon-theme-vscode/issues"
+    "url": "https://github.com/taysatte/corduroy-theme-vscode/issues"
   },
   "galleryBanner": {
     "color": "#1d1920",
@@ -44,10 +45,16 @@
     "Themes"
   ],
   "scripts": {
+    "build:themes": "node scripts/refactor-workbench-colors.mjs && node scripts/refactor-token-colors.mjs",
+    "package": "pnpm run build:themes && vsce package",
+    "publish:marketplace": "vsce publish",
+    "publish:ovsx": "ovsx publish",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "@vscode/vsce": "^3.2.1",
+    "ovsx": "^0.10.1",
     "prettier": "^3.5.3"
   },
   "contributes": {

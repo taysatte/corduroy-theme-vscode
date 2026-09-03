@@ -1,11 +1,16 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.env
+.env.*
 vsc-extension-quickstart.md
 node_modules/**
 scripts/**
+palette/*.mjs
+docs/**
 ref/**
 sample/**
 pnpm-lock.yaml
 .prettierrc
 .prettierignore
+.github/**

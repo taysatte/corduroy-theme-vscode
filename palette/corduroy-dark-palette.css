@@ -5,12 +5,12 @@
   --muted: #7d7082; /* Ignored content, disabled elements and unfocused text */
   --subtle: #9a8d9e; /* Comments, punctuation, and tab names */
   --text: #ddd8df; /* Primary text color, normal text, variables, and active content */
-  --chenille: #e8758a; /* Diagnostic errors, deleted git files, terminal red/bright red */
-  --chamois: #f0bd9c; /* Warnings, terminal yellow/bright yellow */
-  --rayon: #f0a89b; /* Primary UI accents, matching search background, modified git files, terminal cyan/bright cyan */
-  --argyle: #55a0a0; /* Git additions, renamed git files, terminal green/bright green */
-  --velour: #dc92a3; /* Diagnostic information, terminal blue/bright blue */
-  --paisley: #cf98c4; /* Diagnostic hints, inline links, merged and staged git modifications, terminal magenta/bright magenta */
+  --chenille: #e8758a; /* Errors / destructive only */
+  --chamois: #f0bd9c; /* Warnings, strings, terminal yellow */
+  --rayon: #f0a89b; /* Primary UI accents, function names, numeric literals */
+  --argyle: #55a0a0; /* Keywords, storage types, git additions */
+  --velour: #dc92a3; /* Types, classes, built-in support, info diagnostics */
+  --paisley: #cf98c4; /* Parameters, attributes, links */
   --highlight-low: #18131b; /* Cursorline background, inactive selection background */
   --highlight-med: #4f4656; /* Selection background paired with text foreground */
   --highlight-high: #5a5160; /* Borders, visual dividers / cursor background paried with text foreground */

@@ -2,6 +2,18 @@
 
 All notable changes to the "Corduroy Theme" extension will be documented in this file.
 
+## [v1.3.0] - [v1.4.0]
+
+- Migrated publisher id from `TaylorSattenfield` to **`taysatte`** (matches GitHub username; Marketplace/Open VSX listings are a new identity)
+- Renamed display name from `Corduroy for VSCode` to **Corduroy Theme**
+- Renamed package `name` from `corduroy-theme-vscode` to **`corduroy-theme`** (full id: `taysatte.corduroy-theme`)
+- Unified palette source of truth in `palette/corduroy-palettes.mjs`
+- Regenerated all workbench colors from palette roles (warning color drift fixed; decorative chenille removed from brackets/charts)
+- Enabled `semanticHighlighting` with `semanticTokenColors` for TS/JS/Python token types
+- Synced markdown preview styles with the token role map
+- Added `build:themes` script and GitHub Actions workflow for dual-registry publishing
+- Fixed `bugs.url` and added `homepage` metadata
+
 ## [v1.2.9] - [v1.3.0]
 
 - Shifted primary UI accents from chenille to rayon for buttons, badges, progress bars, and links

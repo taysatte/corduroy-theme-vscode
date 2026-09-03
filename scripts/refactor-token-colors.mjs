@@ -1,54 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { palettes } from "../palette/corduroy-palettes.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
-
-const palettes = {
-  corduroy: {
-    comment: "#887b8c",
-    punctuation: "#887b8c",
-    punctuationString: "#edb392",
-    keyword: "#4b8686",
-    storage: "#4b8686",
-    structural: "#d27f91",
-    support: "#d27f91",
-    name: "#e99d90",
-    constant: "#4b8686",
-    constantNumeric: "#e99d90",
-    constantAccent: "#e06278",
-    string: "#edb392",
-    variable: "#cdc8d0",
-    parameter: "#c285b2",
-    attribute: "#c285b2",
-    invalid: "#e06278",
-    invalidDeprecated: "#887b8c",
-    metaText: "#cdc8d0",
-    variableCss: "#d27f91",
-  },
-  "corduroy-dark": {
-    comment: "#9a8d9e",
-    punctuation: "#9a8d9e",
-    punctuationString: "#f0bd9c",
-    keyword: "#55a0a0",
-    storage: "#55a0a0",
-    structural: "#dc92a3",
-    support: "#dc92a3",
-    name: "#f0a89b",
-    constant: "#55a0a0",
-    constantNumeric: "#f0a89b",
-    constantAccent: "#e8758a",
-    string: "#f0bd9c",
-    variable: "#ddd8df",
-    parameter: "#cf98c4",
-    attribute: "#cf98c4",
-    invalid: "#e8758a",
-    invalidDeprecated: "#9a8d9e",
-    metaText: "#ddd8df",
-    variableCss: "#dc92a3",
-  },
-};
 
 function colorSettings(foreground, { italic = false } = {}) {
   const settings = { foreground };
@@ -285,7 +241,11 @@ function buildTokenColors(c, { italic = false } = {}) {
       settings: colorSettings(c.variable),
     },
     {
-      scope: ["variable.parameter", "entity.name.variable.parameter.cs", "variable.parameter.cpp"],
+      scope: [
+        "variable.parameter",
+        "entity.name.variable.parameter.cs",
+        "variable.parameter.cpp",
+      ],
       settings: colorSettings(c.parameter),
     },
     {
@@ -293,6 +253,40 @@ function buildTokenColors(c, { italic = false } = {}) {
       settings: colorSettings(c.variableCss),
     },
   ];
+}
+
+function buildSemanticTokenColors(c, { italic = false } = {}) {
+  return {
+    namespace: c.structural,
+    class: c.structural,
+    enum: c.structural,
+    interface: c.structural,
+    struct: c.structural,
+    type: c.structural,
+    typeParameter: c.structural,
+    function: c.name,
+    method: c.name,
+    macro: c.name,
+    variable: italic ? { foreground: c.variable, fontStyle: "italic" } : c.variable,
+    parameter: c.parameter,
+    property: c.variable,
+    enumMember: c.constantNumeric,
+    event: c.name,
+    decorator: c.attribute,
+    comment: italic ? { foreground: c.comment, fontStyle: "italic" } : c.comment,
+    string: c.string,
+    keyword: c.keyword,
+    number: c.constantNumeric,
+    regexp: c.string,
+    operator: c.punctuation,
+    "*.defaultLibrary": c.support,
+    "variable.defaultLibrary": c.support,
+    "function.defaultLibrary": c.name,
+    "method.defaultLibrary": c.name,
+    "class.defaultLibrary": c.structural,
+    "interface.defaultLibrary": c.structural,
+    "type.defaultLibrary": c.structural,
+  };
 }
 
 const themes = [
@@ -323,12 +317,15 @@ const themes = [
 for (const { file, paletteKey, italic, name } of themes) {
   const themePath = path.join(root, file);
   const theme = JSON.parse(fs.readFileSync(themePath, "utf8"));
-  theme.tokenColors = buildTokenColors(palettes[paletteKey], { italic });
+  const palette = palettes[paletteKey];
+  theme.tokenColors = buildTokenColors(palette, { italic });
+  theme.semanticHighlighting = true;
+  theme.semanticTokenColors = buildSemanticTokenColors(palette, { italic });
   if (name) {
     theme.name = name;
   }
   fs.writeFileSync(themePath, JSON.stringify(theme, null, 2) + "\n");
   console.log(
-    `Updated ${file} (${theme.tokenColors.length} rules, italic: ${italic})`
+    `Updated ${file} (${theme.tokenColors.length} token rules, semantic: on, italic: ${italic})`
   );
 }
