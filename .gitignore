@@ -14,4 +14,7 @@
 .env
 .env.*
 
+# Local publishing notes (secrets/setup; not for the public repo)
+docs/PUBLISHING.md
+
 ref/
